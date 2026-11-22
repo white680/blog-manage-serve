@@ -16,7 +16,7 @@ const rootDir =
 app.use(express.static(path.join(rootDir, 'data')));
 // 设置跨域
 app.use(cors({
-  origin: 'http://localhost:5174',
+  origin: 'http://localhost:5173',
   methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
   // 必须把前端实际会带的请求头全部列出来，否则预检会被浏览器拦截
   // （以后前端再加自定义头，这里也要同步加，或者直接删掉 allowedHeaders 让它回显请求头）
