@@ -1,0 +1,6 @@
+{
+  "watch": ["main.ts", "config", "controller", "routes", "model", "lib"],
+  "ext": "ts,json",
+  "ignore": ["dist", "node_modules"],
+  "exec": "tsx main.ts"
+}
